@@ -31,8 +31,4 @@ body {
   .qn {
     width: 375px !important;
   }
-   html,
-  body {
-    overflow-x: none;
-  }
 }
