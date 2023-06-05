@@ -27,12 +27,8 @@ body {
 .answer p {
   display: block !important;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .qn {
-    width: 400px !important;
-  }
-  #btn {
-    position: absolute;
-    right: 25px;
+    width: 375px !important;
   }
 }
