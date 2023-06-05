@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(246, 229, 209);
+}
+
+#para {
+  width: 475px;
+  display: none;
+}
+#qn {
+  width: 475px;
+  position: relative;
+}
+#hor {
+  width: 475px !important;
+}
+#btn {
+  position: absolute;
+  right: 12px;
+}
+.answer p {
+  display: block !important;
+}
+@media screen and (max-width: 450px) {
+  .qn {
+    width: 375px !important;
+  }
+}
